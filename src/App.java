@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.naming.NamingException;
+
 class App {
   public static void main(String[] args) {
     // 1. Use a variable to store a number, then write a condition that prints 0 if the number is equal to 10, and prints -1 otherwise.
@@ -217,24 +219,129 @@ class App {
 
     // 1. Write a program that asks the user to enter a word, then prints that word with all capital letters.
 
+      // System.out.println("Please enter a word");
+
+      // Scanner keyboard = new Scanner(System.in);
+      // String input = keyboard.next();
+
+      // System.out.println(input.toUpperCase());
+
+      // keyboard.close();
+
     // 2. Write a program that asks the user to enter a number, then prints "That's a big number" if the number is greater than 100.
+
+    // System.out.println("Please enter a number");
+
+    // Scanner keyboard = new Scanner(System.in);
+    // int number = keyboard.nextInt();
+
+    // if (number > 100) {
+    //   System.out.println("Thats a big number");
+    // }
+
+    // keyboard.close();
 
     // 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
 
+      // System.out.println("Please enter a number");
+      // Scanner keyboard = new Scanner(System.in);
+      // int numberOne = keyboard.nextInt();
+      
+      // System.out.println("Please enter another number");
+      // int numberTwo = keyboard.nextInt();
+
+      // int sum = numberOne + numberTwo;
+
+      // System.out.println("Sum is " + sum);
+      // keyboard.close();
+
     // 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
+
+      // System.out.println("Please enter a word");
+
+      // Scanner keyboard = new Scanner(System.in);
+
+      // String input = keyboard.next();
+
+      // System.out.println(new StringBuilder(input).reverse().toString());
+
+      // keyboard.close();
 
     // 5. Write a program that asks the user to enter a number, then prints the number times 10.
 
+      // System.out.println("Please enter a number");
+
+      // Scanner keyboard = new Scanner(System.in);
+      // int number = keyboard.nextInt();
+
+      // for (int i = 0; i < 10; i++) {
+      //   System.out.println(number);
+      // }
+      
+      // keyboard.close();
+
     // 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
+
+      // System.out.println("Please enter two words");
+
+      // Scanner keyboard = new Scanner(System.in);
+      // String str = keyboard.nextLine();
+
+      // System.out.println(str.toUpperCase());
+      
+      // keyboard.close();
 
     // 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
 
+      // System.out.println("Please enter a word");
+
+      // Scanner keyboard = new Scanner(System.in);
+      // String str = keyboard.next();
+
+      // System.out.println(str.length());
+      
+      // keyboard.close();
+
     // 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
 
+      // System.out.println("Please enter a number");
+
+      // Scanner keyboard = new Scanner(System.in);
+      // int number = keyboard.nextInt();
+      // if (number < 0) {
+      //   System.out.println("Thats a negative number");
+      // }
+      
+      // keyboard.close();
+
+    
     // 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
+
+    // System.out.println("Please enter a number");
+    
+    // Scanner keyboard = new Scanner(System.in);
+    // int firstNumber = keyboard.nextInt();
+    // System.out.println("Please enter another number");
+    // int secondNumber = keyboard.nextInt();
+    
+    // int product = firstNumber * secondNumber;
+
+    // System.out.println(product);
+
+    // keyboard.close();
 
     // 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
 
+      // System.out.println("Please enter a word");
+
+      // Scanner keyboard = new Scanner(System.in);
+      // String word = keyboard.next();
+      
+      // if (word.length() > 5) {
+      //   System.out.println("Thats a long word");
+      // }
+      
+      // keyboard.close();
 
     // SOLUTIONS: https://gist.github.com/peterxjang/1539a3ad79728ba4fb68dd8d07279c29
 
