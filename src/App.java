@@ -348,30 +348,105 @@ class App {
 
     // 1. Write a while loop to print the numbers 1 through 10.
 
-      int i = 1;
-      while (i <= 10) {
-        System.out.println(i);
-        i++;
-      }
+      // int i = 1;
+      // while (i <= 10) {
+      //   System.out.println(i);
+      //   i++;
+      // }
 
     // 2. Write a while loop that prints the word "hello" 5 times.
 
+    // int i = 0;
+    // while (i < 5) {
+    //   System.out.println("hello");
+    //   i++;
+    // }
+
     // 3. Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
+
+      // Scanner keyboard = new Scanner(System.in);
+    
+      // while (true) {
+      //   System.out.println("Please enter a word");
+      //   String word = keyboard.next();
+      //   if (word.equals("stop")) {
+      //     System.out.println("exiting..");
+      //     break;
+      //   }
+      // }
+
+      // keyboard.close();
 
     // 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
 
+      // int i = 0;
+      // while (i <= 100) {
+      //   System.out.println(i);
+      //   i += 5;
+      // }
+
     // 5. Write a while loop that prints the number 9000 ten times.
+
+    // int i = 0;
+    // while(i < 10) {
+    //   System.out.println(9000);
+    //   i++;
+    // }
 
     // 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
 
+      // Scanner keyboard = new Scanner(System.in);
+    
+      // while (true) {
+      //   System.out.println("Please enter a number");
+      //   int number = keyboard.nextInt();
+      //   if (number > 10) {
+      //     System.out.println("exiting");
+      //     break;
+      //   }
+      // }
+
+      // keyboard.close();
+
     // 7. Write a while loop that prints the numbers 50 to 70.
+
+      // int i = 50;
+
+      // while (i <= 70) {
+      //   System.out.println(i);
+      //   i++;
+      // }
 
     // 8. Write a while loop that prints the phrase "Around the world" 144 times.
 
+      // int i = 0; 
+      // while(i < 144) {
+      //   System.out.println("Around the world");
+      //   i++;
+      // }
+
     // 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
+
+    // Scanner keyboard = new Scanner(System.in);
+    
+    // while (true) {
+    //   System.out.println("Please enter a word");
+    //     String input = keyboard.nextLine();  
+    //     if (input.length() > 5 ) {
+    //       break;
+    //     }
+    //   }
+    //   keyboard.close();
+
 
     // 10. Write a while loop that prints the even numbers from 2 to 40.
 
+    // int i = 2;
+
+    // while (i <= 40) {
+    //   System.out.println(i);
+    //   i += 2;
+    // }
 
     // SOLUTIONS: https://gist.github.com/peterxjang/c4ec0e0f8f6e123d65ada9bf3100068b
 
